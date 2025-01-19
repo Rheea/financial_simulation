@@ -1,13 +1,15 @@
 # Financial Simulation: Salary, Taxes, and Pensions
 
-This repository provides Python-based tools to compute and simulate salary structures, taxes, pension contributions, and other financial aspects. It is designed to assist in understanding personal and organizational financial planning.
+This repository provides Python-based tools to compute and simulate salary structures, taxes, pension contributions, and other financial aspects. It is designed to assist in understanding personal and organisational financial planning.
 
-## Features
+This is a WIP 
+
+## Planned Features - WIP
 
 - **Salary Breakdown:** Calculate gross and net salary based on various deductions.
 - **Tax Computation:** Simulate income tax, social security, and other mandatory contributions.
 - **Pension Planning:** Model pension contributions and their impact on long-term savings.
-- **Custom Rules:** Support for regional or organizational tax and pension policies.
+- **Custom Rules:** Support for regional or organisational tax and pension policies.
 - **Visualization:** Graphs and summaries of salary and pension distributions over time.
 
 ## Table of Contents
@@ -36,7 +38,8 @@ This repository provides Python-based tools to compute and simulate salary struc
 ## Contributing
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [VMIT License](https://opensource.org/license/mit)
+.
 
 
 ## Acknowledgments
