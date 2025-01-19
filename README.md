@@ -24,7 +24,7 @@ This repository provides Python-based tools to compute and simulate salary struc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rheea/financial-simulation.git
+   git clone https://github.com/Rheea/financial-simulation.git
    cd financial-simulation
 
 ## Usage
