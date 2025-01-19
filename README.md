@@ -38,10 +38,29 @@ This is a WIP
 ## Contributing
 
 ## License
-This project is licensed under the [VMIT License](https://opensource.org/license/mit)
-.
+This project is licensed under the [VMIT License](https://opensource.org/license/mit).
 
 
 ## Acknowledgments
+
+Based on the UK regulations currently in place. Please check the following websites for further information:
+
+Official Guidelines:
+
+[UK Income Tax Rates](https://www.gov.uk/income-tax-rates)
+
+[National Insurance Contributions](https://www.gov.uk/government/publications/rates-and-allowances-national-insurance-contributions/rates-and-allowances-national-insurance-contributions)
+
+[Pension Tax Relief](https://www.gov.uk/tax-on-your-private-pension/pension-tax-relief)
+
+Additional Resources:
+
+https://ukpersonal.finance/pensions/
+
+https://ukpersonal.finance/tax-traps-and-tax-efficiency/
+
+https://ukpersonal.finance/pensions/#How_do_I_claim_higher-rate_tax_relief
+
+
 
 
