@@ -1,10 +1,20 @@
 
 import sys 
+import os
+
+# clean printout
+# For Windows
+if os.name == 'nt':
+    os.system('cls')
+# For macOS and Linux
+else:
+    os.system('clear')
+
 # Arguments passed
 n = len(sys.argv)
 print("Total arguments passed:", n)
 if n == 1:
-    pension_contrib_arg = 0.08
+    pension_contrib_arg =  0.08
 else:
     print("Percentage of employee contribution:", sys.argv[1])
     pension_contrib_arg =  float(sys.argv[1])
@@ -17,14 +27,14 @@ else:
 # for contrib in contrib_list:
     # contrib = contrib*0.01
     # Income Tax Variables.
-total_income = 110000
+total_income = 130000
 income_tax_none = 0.0
 income_tax_low = 20.0
 income_tax_high = 40.0
 income_tax_vhigh = 45.0
 
 tax_brackets = [0.0, 0.2, 0.4, 0.45]
-income_brackets = [0, 12571,  50270, 125140, 10000000000]
+income_brackets = [0, 12571,  50271, 125141, 10000000000]
 
 # Pension variables
 pension_contribution = pension_contrib_arg
@@ -43,7 +53,7 @@ lel = 6240 # Lower Earnings Level
 uel = 50270 # Upper Earnings Level
 
 
-national_insurance_monthly = 350.0
+national_insurance_monthly = 385.0
 
 # Calculate income tax per bracket and total
 print("===== INCOME TAX =====")
@@ -68,12 +78,16 @@ for i, tax in enumerate(tax_brackets):
 
 print(f"Total income = {total_income:.2f}")
 print(f"Total income tax = {total_income_tax:.2f}")
+print(f"Total income ater tax = {total_income-total_income_tax:.2f}")
+
 
 # Calculate per month
 monthly_tax = total_income_tax/12.0
 monthly_income = total_income/12.0
+monthly_income_after_tax = (total_income-total_income_tax)/12.0
 print(f"Monthly income = {monthly_income:.2f}")
 print(f"Monthly income tax = {monthly_tax:.2f}")
+print(f"Monthly income ater tax = {monthly_income_after_tax:.2f}")
 
 
 # Calculate pension:
@@ -103,6 +117,8 @@ print("---> Monthly")
 print(f"Monthly Employee Contrib = {contrib_employee/12.0:.2f}")
 print(f"Monthly HMRC Contrib = {contrib_hmrc/12.0:.2f}")
 print(f"Monthly Employer Contrib = {contrib_employer/12.0:.2f}")
+print(f"Monthly Pension Contrib = {contrib_total/12.0:.2f}")
+
 print(f"Final Monthly Income = {final_monthly_income:.2f}")
 
 
