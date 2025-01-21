@@ -38,7 +38,7 @@ This is a WIP
 ## Contributing
 
 ## License
-This project is licensed under the [VMIT License](https://opensource.org/license/mit).
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
 
 ## Acknowledgments
